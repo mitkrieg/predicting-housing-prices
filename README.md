@@ -8,7 +8,7 @@ Author: Mitch Krieger
 This repository attempts to predict housing prices in King County, Washington (Seattle Area) through mutliple linear regression using various features. Ultimately, using the Recursive Feature Elimation prices for houses in a test set were predicted with an RMSE of 165802.93
 
 ## Business Problem
-The goal is to predict housing prices with a somewhat interpretable model.
+The goal is to predict housing as acurately as possible prices with a somewhat interpretable model.
 
 ## Data 
 
@@ -20,7 +20,7 @@ All features in at the outset seem important, but the real estate phrase, "locat
 
 ## Methods
 
-After an initial Exploratory Data Analysis was formed using various viusalizations, additional features were engineered including, bedrooms per bathroom, bedrooms per square footage, age of the house, and city among others. Then, seven models were created using Multiple Linear Regression. Each progressive model different methods for feature selection was chosen and teh R^2 and RMSE values were tracked to ultimately chose the best model, monitoring for statistical significance of various features and any possible multicolinearity between features.
+After an initial Exploratory Data Analysis was formed using various viusalizations, additional features were engineered including, bedrooms per bathroom, bedrooms per square footage, age of the house, and city among others. Then, seven models were created using Multiple Linear Regression. Each progressive model used different methods for feature selection each time. R^2 and RMSE values were tracked to ultimately chose the best model, monitoring for statistical significance of various features and any possible multicolinearity between features.
 
 ## Results
 
@@ -29,7 +29,7 @@ Using Recursive Feature Elemination yeilded the best feature selection and that 
 
 ## Conclusion & Next Steps
 
-Due to repeated heteroscedastic residual plots, the linear regression model still has room for growth. Perhaps with further exploraton a better transformation could be found using polynomial/logarithmic feature. In addition there may be other ways to features further flesh out using dummies and/or feature interactions.
+Due to repeated heteroscedastic residual plots, the linear regression model still has room for growth. Perhaps with further exploraton a better transformation could be found using a polynomial/logarithmic feature. In addition there may be other ways to engineer features or further flesh out using dummies and/or feature interactions.
 
 ## Repository Structure
 
