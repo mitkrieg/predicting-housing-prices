@@ -1,5 +1,7 @@
 # Predicting Housing Prices Using Linear Regression
 
+![puget_sound_seattle](data/puget_sound_seattle.jpg)
+
 Author: Mitch Krieger
 
 ## Overview
@@ -27,7 +29,7 @@ Using Recursive Feature Elemination yeilded the best feature selection and that 
 
 ## Conclusion & Next Steps
 
-Due to repeated heteroscedastic residual plots, the linear regression model still has room for growth. Perhaps with further exploraton a better transformation could be found using polynomial/logarithmic feature. 
+Due to repeated heteroscedastic residual plots, the linear regression model still has room for growth. Perhaps with further exploraton a better transformation could be found using polynomial/logarithmic feature. In addition there may be other ways to features further flesh out using dummies and/or feature interactions.
 
 ## Repository Structure
 
