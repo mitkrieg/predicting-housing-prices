@@ -24,8 +24,9 @@ After an initial Exploratory Data Analysis was formed using various viusalizatio
 
 ## Results
 
-Using Recursive Feature Elemination yeilded the best feature selection and that model ended up having the best RMSE of 165802.93. All redisual plots for all models were heteroscedastic indicating that there are still additional features and transformations that could stregnthen the model's predictions.
+Using Recursive Feature Elemination yeilded the best feature selection and that model ended up having the best RMSE of 165802.93. All redisual plots for all models were heteroscedastic indicating that there are still additional features and transformations that could stregnthen the model's predictions. A residual plot for the final model using recusive feature elimination:
 
+![residual_plot](/data/final_model_residual.png)
 
 ## Conclusion & Next Steps
 
