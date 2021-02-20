@@ -8,7 +8,7 @@ Author: Mitch Krieger
 This repository attempts to predict housing prices in King County, Washington (Seattle Area) through mutliple linear regression using various features. Ultimately, using the Recursive Feature Elimation prices for houses in a test set were predicted with an RMSE of 165802.93
 
 ## Business Problem
-The goal is to predict housing as acurately as possible prices with a somewhat interpretable model.
+Real Estate agents must be able to assess value of a home to better be able to market, negotiate the price and eventually sell the home. The goal of this project is to predict housing prices as acurately as possible prices with a somewhat interpretable model, allowing the agent to understand what factors lead to a more expensive home and estimate what the value of the home should be. 
 
 ## Data 
 
